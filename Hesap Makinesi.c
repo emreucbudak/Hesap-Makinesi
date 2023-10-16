@@ -33,11 +33,15 @@ int main()
         int e;
         t = y+z;
         printf("İşlem Sonucu = %d ", t);
+        goto jump;
+        
     }    
     if (x==2)
     {
         t = y-z;
         printf("İşlem Sonucu = %d", t);
+        goto jump;
+    
         
     }
     if (x==3)
@@ -54,11 +58,15 @@ int main()
             printf ("Bölüm = %f", a);
             
         }
+    
+        goto jump;
     }
     if (x==4)
     {
         t = y*z;
         printf("İşlem Sonucu = %d",t);
+        goto jump;
+        
     }
     return 0;
 }
